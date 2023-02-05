@@ -1,0 +1,16 @@
+#flip-box {
+    width: 1000px;
+    height: 600px;
+    transition: 0.9s;
+    transform-style: preserve-3d;
+    position: relative;
+    background-color: chartreuse;
+}
+.demo-submit{
+    padding: 10px 20px;
+    background: #555;
+    border: 0;
+    color: rgb(196, 22, 22);
+    display:inline-block;
+    margin-top:20px;
+}

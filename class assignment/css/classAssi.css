@@ -1,0 +1,39 @@
+#head:hover {
+    color:white;
+}
+
+h1{
+    text-align: center;
+
+}
+body{
+    background-color: aqua;
+}
+div{
+    background-color:azure;
+}
+.c1{
+    background-color: orange;
+    border-style: dashed;
+}
+.c2{
+    background-color: chocolate;
+    border-style: dotted;
+}
+.c3{
+    background-color: deeppink;
+    border-style:p;
+}
+.c4{
+    background-color: gold;
+    border-style: groove;
+}
+div {
+    background-color: gray;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+}
+div:hover{
+      text-transform: capitalize;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reg.css">
+</head>
+<style>
+   
+</style>
+
+<body>
+    <form action="regform">
+    <h1>Regitration form</h1>
+    <p>please fill out the formto register for our site. Fields with bold label are required</p>
+    <b>Name</b><input type="text" class="name" required><br><br>
+    <b>Gender</b><input type="radio" name="" id="">male <input type="radio" name="" id="">female <input type="radio" name="" id=""><br><br>
+    <b>Operating System </b><select name="" id="" class="name" required>
+        <option value="windown">window</option>
+        <option value="linux">linux</option>
+        <option value="mac">mac</option>
+    </select><br><br>
+    <b>Toys</b><input type="checkbox" name="" id="">digital camera
+    <input type="checkbox" name="" id="">MP3 Player
+    <input type="checkbox" name="" id="">wireless lan <br><br>
+
+    <b>potrait</b><input type="file" name="" id=""><br><br>
+    <b>mini biography</b><br><br>
+    <textarea name="" id="" cols="30" rows="10" class="name"></textarea><br><br>
+    <input type="submit" value="register" >
+</form>
+</body>
+<script src="./lq/jquery-3.6.3.min.js"></script>
+<script>
+$('#regform').submit(function (event){
+
+    if (!$(This.Entername).val()){
+        event.preventDefault()
+        alert('Enter the name')
+    }}
+    if(!$(this).find)("input [name= 'gender']:checked")
+    .lenghth){
+        event.preventDefault()
+        alert('enter your gender')
+
+        }   
+    
+
+
+
+
+
+
+</script>
+</html>

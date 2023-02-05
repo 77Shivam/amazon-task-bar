@@ -1,0 +1,31 @@
+body{
+    padding: 20px;
+   
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item{
+    width: 250px;
+    height: 300%;
+    
+    font-size: 2em;
+    border: 2px solid rgb(5, 5, 5);
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin: 0 20 px 20px 0;
+}
+#flex-item-1{
+    background-color:gold;
+    position: sticky;
+}
+#flex-item-2{
+    background-color: rgb(111, 231, 13);
+}
+#flex-item-3{
+    background-color: rgb(168, 206, 31);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "text-align:center;">
+     
+  
+     
+    <p id = "GFG_UP" style =
+            "font-size: 15px; font-weight: bold;">
+    </p>
+     
+    <button onclick = "GFG_Fun()">
+        click here
+    </button>
+     
+    <p id = "GFG_DOWN" style =
+        "font-size: 24px; font-weight: bold; color: green;">
+    </p>
+     
+    <script>
+        var up = document.getElementById('GFG_UP');
+        var down = document.getElementById('GFG_DOWN');
+        var text = 'This is http://www.google.com/';
+         
+        up.innerHTML = "Click on the button to replace "
+                + "plain URLs with links.<br>" + text;
+         
+        function rep(text) {
+             
+            
+            var Rexp =
+/((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/g;
+             
+            
+            return text.replace(Rexp,
+                    "<a href='$1' target='_blank'>Link to URL</a>");
+        }
+         
+        function GFG_Fun() {
+            down.innerHTML = rep(text);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    'nav nav nav nav'
+    'section section side aside'
+    'footer footer footer footer';
+}
+.navbar{
+    grid-area: nav;
+    background-color: blue;
+    border: 2px solid greenyellow;
+    padding: 30px;
+}
+.section{
+    grid-area: section;
+    background-color: rgb(95, 161, 212);
+    border: 2px solid rgb(7, 5, 7);
+    padding:30px
+}
+.aside{
+    grid-area: aside;
+    background-color: rgb(101, 180, 36);
+    border: 2px solid rgb(62, 9, 47);
+    padding:30px
+}
+.footer{
+    grid-area: footer;
+    background-color: rgb(93, 87, 22);
+    border: 2px solid rgb(229, 189, 15);
+    padding:30px
+}
